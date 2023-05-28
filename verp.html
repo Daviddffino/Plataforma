@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Perfil de Streamer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+    }
+    
+    .streamer-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+    
+    .streamer-header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+    
+    .streamer-avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-right: 30px;
+      object-fit: cover;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    }
+    
+    .streamer-nickname {
+      font-size: 36px;
+      font-weight: bold;
+      color: #333333;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    }
+    
+    .streamer-description {
+      font-size: 20px;
+      margin-bottom: 30px;
+      color: #666666;
+    }
+    
+    .social-media-list {
+      margin-bottom: 30px;
+    }
+    
+    .social-media-item {
+      margin-bottom: 10px;
+    }
+    
+    .social-media-item a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #333333;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    
+    .social-media-item a:hover {
+      background-color: #555555;
+    }
+    
+    .category-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 30px;
+    }
+    
+    .category-item {
+      background-color: #f0f0f0;
+      border-radius: 10px;
+      padding: 30px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    
+    .category-item:hover {
+      transform: translateY(-10px);
+    }
+    
+    .category-name {
+      font-weight: bold;
+      font-size: 24px;
+      color: #333333;
+    }
+    
+    .category-description {
+      font-size: 16px;
+      margin-top: 15px;
+      color: #666666;
+    }
+    
+    .category-item img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-top: 30px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="streamer-container">
+    <div class="streamer-header">
+      <img class="streamer-avatar" src="ka.jpeg" alt="Avatar">
+      <div>
+        <div class="streamer-nickname"> Pixar</div>
+        <div class="streamer-description">¡Bienvenidos a mi canal de streaming!</div>
+      </div>
+    </div>
+    
+    <div class="social-media-list">
+      <div class="social-media-item">
+        <a href=" https://twitter.com/LauraStream">Twitter</a>
+      </div>
+      <div class="social-media-item">
+        <a href="https://instagram.com/LauraStream">Instagram</a>
+      </div>
+      <div class="social-media-item">
+        <a href="https://twitch.tv/LauraStream">Twitch</a>
+      </div>
+    </div>
+    
+    <div class="category-list">
+      <div class="category-item">
+        <div class="category-name">Juegos</div>
+        <div class="category-description">Transmisión de videojuegos en vivo</div>
+        <img src="juego.png" alt="Juegos">
+      </div>
+      <div class="category-item">
+        <div class="category-name">En estudio</div>
+        <div class="category-description">Transmisión desde un estudio</div>
+        <img src="strea.jpg" alt="En estudio">
+      </div>
+      <div class="category-item">
+        <div class="category-name">Música</div>
+        <div class="category-description">Transmisión de sesiones de música en vivo</div>
+        <img src="mus.jpg" alt="Música">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
